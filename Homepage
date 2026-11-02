@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pixel Vault | Retro Video Games</title>
+	<link rel ="stylesheet" href="style.css">
+  </head>
+  <body style="background-color:#f4f5f9;">
+	<div class="topnav flex-container">
+	  <a class="logo" href="Homepage.html">PIXEL VAULT</a>
+	  <a class="active" href="Homepage.html">Home</a>
+	  <a href="Shop.html">Shop</a>
+	  <a href="Contact.html">Contact</a>
+	</div>
+
+	<section class="hero">
+		<h1>Relive the Golden Age of Gaming</h1>
+		<p>Classic cartridges and handhelds from the 8-bit, 16-bit and 64-bit eras. Every game is cleaned, tested and ready to play.</p>
+		<div class="flex-container">
+			<a class="btn" href="Shop.html">Shop Games</a>
+			<a class="btn btn-outline" href="Contact.html">Contact Us</a>
+		</div>
+	</section>
+
+	<section>
+		<h2>Why Pixel Vault</h2>
+		<p class="intro">We are collectors first, so we treat every game like it is going into our own shelf.</p>
+		<div class="flex-container">
+			<div> <b> Tested and Working </b> <p class="description"> Every cartridge is cleaned and checked on real hardware before it ships.</p></div>
+			<div> <b> Honest Condition Grades </b> <p class="description"> We describe wear, labels and missing parts up front, so there are no surprises.</p></div>
+			<div> <b> Careful Shipping </b> <p class="description"> Games are padded and boxed securely and go out within two business days.</p></div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Shop by Console</h2>
+		<p class="intro">Pick an era and start browsing, or tell us what you are hunting for.</p>
+		<div class="flex-container">
+			<div style="border-top: 4px solid #d33;"> <b> 8-Bit Classics </b> <p class="description"> The games that started it all, from side-scrollers to space shooters.</p> <a class="btn" href="Shop.html#bit8">Browse 8-Bit</a></div>
+			<div style="border-top: 4px solid #2a7fdc;"> <b> 16-Bit Golden Age </b> <p class="description"> Big adventures, fast racers and some of the best soundtracks ever made.</p> <a class="btn" href="Shop.html#bit16">Browse 16-Bit</a></div>
+			<div style="border-top: 4px solid #3aa655;"> <b> 64-Bit Favorites </b> <p class="description"> The leap to 3D, with kart racing, brawlers and open worlds.</p> <a class="btn" href="Shop.html#bit64">Browse 64-Bit</a></div>
+			<div style="border-top: 4px solid #8a4fd6;"> <b> Handheld Hits </b> <p class="description"> Pocket-sized classics that are perfect for playing anywhere.</p> <a class="btn" href="Shop.html#handheld">Browse Handhelds</a></div>
+			<div style="border-top: 4px solid #e08a1e;"> <b> Sell Us Your Games </b> <p class="description"> Got a box of old cartridges in the attic? Send us a list for an offer.</p> <a class="btn" href="Contact.html">Get an Offer</a></div>
+			<div style="border-top: 4px solid #666;"> <b> Hard-to-Find Titles </b> <p class="description"> Looking for one specific game? We will keep an eye out for it.</p> <a class="btn" href="Contact.html">Request a Game</a></div>
+		</div>
+	</section>
+
+	<section>
+		<h2>Featured Games</h2>
+		<p class="intro">A few favorites from our shelves this week.</p>
+		<div class="flex-container">
+			<div> <div class="cartridge" style="background-color:#d33;"></div> <a href= "Shop.html#bit8" class="game_name"> Pixel Knight Adventures </a> <span class="tag">Good</span> <p class="description"> A sword-and-shield platformer for the 8-bit console.</p> <span class="price">$24.99</span> <a class="btn" href="Contact.html">Ask About This Game</a></div>
+			<div> <div class="cartridge" style="background-color:#2a7fdc;"></div> <a href= "Shop.html#bit16" class="game_name"> Dungeon of Echoes </a> <span class="tag">Like New</span> <p class="description"> A complete-in-box role-playing adventure with its manual.</p> <span class="price">$44.99</span> <a class="btn" href="Contact.html">Ask About This Game</a></div>
+			<div> <div class="cartridge" style="background-color:#3aa655;"></div> <a href= "Shop.html#bit64" class="game_name"> Kart Circuit 64 </a> <span class="tag">Good</span> <p class="description"> Four-player racing action, a party night staple.</p> <span class="price">$29.99</span> <a class="btn" href="Contact.html">Ask About This Game</a></div>
+		</div>
+	</section>
+
+	<section>
+		<h2>How It Works</h2>
+		<p class="intro">Buying a retro game takes three simple steps.</p>
+		<div class="flex-container">
+			<div> <span class="step">1</span> <b> Browse </b> <p class="description"> Look through our shop and find the games you want.</p></div>
+			<div> <span class="step">2</span> <b> Get in Touch </b> <p class="description"> Send us a message with the titles you would like and we will confirm availability.</p></div>
+			<div> <span class="step">3</span> <b> We Ship </b> <p class="description"> We pack your order carefully and send it on its way.</p></div>
+		</div>
+	</section>
+
+	<section class="newsletter">
+		<h2>Never Miss New Stock</h2>
+		<p>Get a heads-up when new games arrive on our shelves.</p>
+		<form class="signup">
+			<input placeholder="Enter your email" type="email" id="signup_email" required>
+			<input type="submit" id="signupbutton" value="Subscribe">
+		</form>
+	</section>
+
+	<footer class="flex-container">
+	  <p>&copy; 2026 Pixel Vault. All rights reserved.</p>
+	  <a href="Homepage.html">Home</a>
+	  <a href="Shop.html">Shop</a>
+	  <a href="Contact.html">Contact</a>
+	</footer>
+  </body>
+</html>
